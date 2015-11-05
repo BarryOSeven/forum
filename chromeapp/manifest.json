@@ -1,0 +1,21 @@
+{
+    "name": "forum.git",
+    "description": "A web based git distributed full fletched discussion forum",
+    "version": "0.1",
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "scripts": ["forum.js"]
+        }
+    },
+    "icons": {
+        "16": "calculator-16.png",
+        "128": "calculator-128.png"
+    },
+    "permissions": [
+        "unlimitedStorage",
+        {
+            "fileSystem": ["write", "requestFileSystem", "retainEntries", "directory"]
+        }
+    ]
+}
