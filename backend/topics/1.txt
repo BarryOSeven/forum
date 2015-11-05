@@ -1,1 +1,6 @@
-Dit is een test topic
+>>wouter
+Dit is een topic
+>bert
+dit is een reactie
+>barry
+dit is ook een reactie
